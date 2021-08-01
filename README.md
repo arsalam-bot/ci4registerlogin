@@ -87,7 +87,7 @@ In the register and check email functions there is a function to send email. Con
 
 `$this->email->setTo($to);`
 
-`$this->email->setFrom('email anda yang telah anda masukan pada file Email.php', 'Do Not Reply!!!');`
+`$this->email->setFrom('your email address, same email in Email.php file', 'Do Not Reply!!!');`
 
 `$this->email->setSubject($subject);`
 
