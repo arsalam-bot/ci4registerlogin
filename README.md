@@ -24,6 +24,7 @@ Copy `env` to `.env` and tailor for your app, specifically the baseURL
 and any database settings.
 
 Configure your database. This system uses a MySQL database. Table name: `tb_users`. Fields used:
+
 `id_users` type `int(11), primary key, auto_increment`
 `username` type `varchar(50)`
 `email` type `varchar(50), UNIQUE`
